@@ -4,28 +4,50 @@ CONFIG   += console
 CONFIG   -= app_bundle
 
 TEMPLATE = app
-SOURCES += main.cpp
+SOURCES += main.cpp \
+    ConvertCharArrayToInt.cpp \
+    Test_ConvertCharArrayToInt.cpp \
+    Test_Readdata.cpp \
+    ReadMNISTData.cpp \
+    NeuralNetworks.cpp \
+    ConvertToFloatMat.cpp \
+    EncodeOutputVector.cpp \
+    Test_NeuralNetwork.cpp \
+    timer.cpp \
+    DecodeOutputVector.cpp \
+    Test_Decode.cpp \
+    MyNN.cpp \
+    SigmodFunction.cpp \
+    TestRND.cpp \
+    Test_MyNN.cpp \
+    Test_sigmod.cpp
 
 
-INCLUDEPATH += D:/OpenCV2.4.8/include
+INCLUDEPATH += D:/OpenCV2.4.9/include
 
-LIBS += D:/OpenCV2.4.8/lib/libopencv_calib3d248.dll.a
-LIBS += D:/OpenCV2.4.8/lib/libopencv_contrib248.dll.a
-LIBS += D:/OpenCV2.4.8/lib/libopencv_core248.dll.a
-LIBS += D:/OpenCV2.4.8/lib/libopencv_features2d248.dll.a
-LIBS += D:/OpenCV2.4.8/lib/libopencv_flann248.dll.a
-LIBS += D:/OpenCV2.4.8/lib/libopencv_gpu248.dll.a
-LIBS += D:/OpenCV2.4.8/lib/libopencv_highgui248.dll.a
-LIBS += D:/OpenCV2.4.8/lib/libopencv_imgproc248.dll.a
-LIBS += D:/OpenCV2.4.8/lib/libopencv_legacy248.dll.a
-LIBS += D:/OpenCV2.4.8/lib/libopencv_ml248.dll.a
-LIBS += D:/OpenCV2.4.8/lib/libopencv_nonfree248.dll.a
-LIBS += D:/OpenCV2.4.8/lib/libopencv_objdetect248.dll.a
-LIBS += D:/OpenCV2.4.8/lib/libopencv_ocl248.dll.a
-LIBS += D:/OpenCV2.4.8/lib/libopencv_photo248.dll.a
-LIBS += D:/OpenCV2.4.8/lib/libopencv_stitching248.dll.a
-LIBS += D:/OpenCV2.4.8/lib/libopencv_superres248.dll.a
-LIBS += D:/OpenCV2.4.8/lib/libopencv_ts248.a
-LIBS += D:/OpenCV2.4.8/lib/libopencv_video248.dll.a
-LIBS += D:/OpenCV2.4.8/lib/libopencv_videostab248.dll.a
+LIBS += D:/OpenCV2.4.9/lib/libopencv_calib3d249.dll.a
+LIBS += D:/OpenCV2.4.9/lib/libopencv_contrib249.dll.a
+LIBS += D:/OpenCV2.4.9/lib/libopencv_core249.dll.a
+LIBS += D:/OpenCV2.4.9/lib/libopencv_features2d249.dll.a
+LIBS += D:/OpenCV2.4.9/lib/libopencv_flann249.dll.a
+LIBS += D:/OpenCV2.4.9/lib/libopencv_gpu249.dll.a
+LIBS += D:/OpenCV2.4.9/lib/libopencv_highgui249.dll.a
+LIBS += D:/OpenCV2.4.9/lib/libopencv_imgproc249.dll.a
+LIBS += D:/OpenCV2.4.9/lib/libopencv_legacy249.dll.a
+LIBS += D:/OpenCV2.4.9/lib/libopencv_ml249.dll.a
+LIBS += D:/OpenCV2.4.9/lib/libopencv_nonfree249.dll.a
+LIBS += D:/OpenCV2.4.9/lib/libopencv_objdetect249.dll.a
+LIBS += D:/OpenCV2.4.9/lib/libopencv_ocl249.dll.a
+LIBS += D:/OpenCV2.4.9/lib/libopencv_photo249.dll.a
+LIBS += D:/OpenCV2.4.9/lib/libopencv_stitching249.dll.a
+LIBS += D:/OpenCV2.4.9/lib/libopencv_superres249.dll.a
+LIBS += D:/OpenCV2.4.9/lib/libopencv_ts249.a
+LIBS += D:/OpenCV2.4.9/lib/libopencv_video249.dll.a
+LIBS += D:/OpenCV2.4.9/lib/libopencv_videostab249.dll.a
+
+HEADERS += \
+    MNIST.h \
+    NeuralNetworksFunctions.h \
+    timer.h \
+    MyNNFucntions.h
 
